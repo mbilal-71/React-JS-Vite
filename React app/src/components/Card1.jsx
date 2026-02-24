@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = (props) => {
+const Card1 = (props) => {
     console.log(props)
   return (
    
@@ -17,4 +17,4 @@ const Navbar = (props) => {
   );
 };
 
-export default Navbar;
+export default Card1;

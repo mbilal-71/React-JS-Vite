@@ -1,10 +1,13 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Card1 from './components/Card1';
+import Card from './components/card';
 
 function App() {
   return (
     <>
-      <Navbar user = "ali" age = {80}/>
+      {/* <Card1 user="ali" age={80} /> */}
+      {/* <Card1 /> */}
+      <Card/>
     </>
   );
 }
