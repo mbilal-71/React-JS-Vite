@@ -154,23 +154,33 @@ body {
   color: #8b8b8b;
 }
 
-  nav: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    padding: "15px 40px",
-    backgroundColor: "#222",
-    color: "white"
-  },
-  logo: {
-    margin: 0
-  },
-  navLinks: {
-    listStyle: "none",
-    display: "flex",
-    gap: "20px",
-    margin: 0
-  },
-  link: {
-    cursor: "pointer"
-  }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #222;
+  color: white;
+}
+
+.logo {
+  margin: 0;
+  font-size: 22px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #00adb5;
+}

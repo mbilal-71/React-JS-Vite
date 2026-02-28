@@ -2,15 +2,17 @@ import React from "react";
 
 function Navbar() {
     return (
-        <nav style={styles.nav}>
-            <h2 style={styles.logo}>MyApp</h2>
+        <nav className="navbar">
+            <h2 className="logo">MyApp</h2>
 
-            <ul style={styles.navLinks}>
-                <li style={styles.link}>Home</li>
-                <li style={styles.link}>About</li>
-                <li style={styles.link}>Services</li>
-                <li style={styles.link}>Contact</li>
+            <ul className="nav-links">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
             </ul>
         </nav>
     );
 }
+
+export default Navbar;
