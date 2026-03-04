@@ -2,7 +2,7 @@ import React from 'react';
 import Card1 from './components/Card1';
 import Card from './components/card';
 import Navbar from './components/navbar';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 
 function App() {
   return (
