@@ -3,6 +3,7 @@ import Card1 from './components/Card1';
 import Card from './components/card';
 import Navbar from './components/navbar';
 import Footer from './components/Footer';
+import './App.css';
 
 function App() {
   return (
