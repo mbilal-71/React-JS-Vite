@@ -13,6 +13,7 @@ const Card1 = (props) => {
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       <button>View Profile</button>
       <button>View Profile</button>
+      <button>View Profile</button>
     </div>
 
   );
