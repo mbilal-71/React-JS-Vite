@@ -12,9 +12,6 @@ const Card1 = (props) => {
       <h1>{props.user}</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       <button>View Profile</button>
-      <h1>{props.user}</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      <button>View Profile</button>
     </div>
   );
 };
