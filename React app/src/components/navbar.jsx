@@ -11,6 +11,7 @@ function Navbar() {
                 <li>Services</li>
                 <li>Contact</li>
                 <li>Privacy Policy</li>
+                <li>Privacy Policy</li>
             </ul>
         </nav>
     );
