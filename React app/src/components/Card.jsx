@@ -30,7 +30,6 @@ const Card = () => {
                 </div>
 
                 <button>Apply Now</button>
-                <button>Apply Now</button>
             </div>
         </div>
     );
