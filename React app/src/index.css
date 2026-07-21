@@ -10,7 +10,7 @@ body {
     width: 100%;
     background-color: #3a3838;
 }
-/* .parent{
+.parent{
     height: 100vh;
     width: 100vh;
 }
@@ -38,7 +38,7 @@ body {
   color: black;
   border: none;
   border-radius: 5px;
-} */
+}
 .card1{
     height: 400px;
     width: 300px;

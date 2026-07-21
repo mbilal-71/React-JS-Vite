@@ -8,8 +8,8 @@ import './App.css';
 function App() {
   return (
     <>
-      {/* <Card1 user="ali" age={80} /> */}
-      {/* <Card1 /> */}
+      <Card1 user="ali" age={80} />
+      <Card1 />
       <Card/>
       <Navbar />
       <Footer />
